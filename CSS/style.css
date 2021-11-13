@@ -85,13 +85,83 @@
     font-size: 2rem;
 }
 
+.bodyrightside2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #f2e9de;
+    justify-content: center;
+    width: 75%;
+    height: 100%;
+}
 
+.page2main {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 100%;
+}
 
+.main2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
 
+.emptyspace2 {
+    height: 100%;
+    width: 120px;
+}
 
+.contactname,
+.contactphone,
+.contactaddress,
+.contactemail {
+    width: 200px;
+    height: 55px;
+}
 
+.contactnamepar,
+.contactphonepar,
+.contactaddresspar,
+.contactemailpar {
+    width: 200px;
+    height: 25px;
+    border-style: groove;
+    border-width: thin;
+    background-color: #fffaf3;
+    align-self: center;
+}
 
+.saveorcancel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+} 
 
+.savebutton {
+    width: 115px;
+    height: 35px;
+    background-color: #31748f;
+    text-align: center;
+    color: #fffaf3;
+    align-content: center;
+}
+
+.cancelbutton {
+    width: 65px;
+    height: 35px;
+    background-color: #eb6f92;
+    text-align: center;
+    color: #fffaf3;
+    align-content: center;
+}
+
+.emptyspacephoto {
+    width: 100%;
+    height: 65px;
+}
 
 
 
