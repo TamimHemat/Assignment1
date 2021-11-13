@@ -1,0 +1,119 @@
+.bodyflex {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 585px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.bodyrightside{
+    display: flex;
+    flex-direction: column;
+    background-color: #f2e9de;
+    width: 75%;
+    height: 100%;
+}
+
+.bodyleftside {
+    width: 25%;
+    height: 100%;
+    background-color: #9ccfd8;
+}
+
+.bodynav {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.contacts{
+    height: 100px;
+    width: 100%;
+}
+
+.createnewcontant {
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.showfavorites {
+    align-self: center;
+}
+
+.page1main {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.page1spacing {
+    height: 75px;
+    width: 100%;
+}
+
+.page1contact1,
+.page1contact2,
+.page1contact3 {
+    width: 140px;
+    height: 75px;
+    text-align: left;
+    font-size: 100%; 
+    background-color: #9893a5;
+}
+
+.emptydivboxpage1 {
+    width: 155px;
+    height: 75px;
+}
+
+.createnewcontact,
+.showfavorites {
+    height: 45px;
+    width: 100%;
+    text-align: center;
+}
+
+.contactslabel {
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+COLOR PALETTE 
+base	#232136	
+surface	#2a273f	 
+overlay	#393552 
+inactive	#59546d
+subtle	#817c9c
+text	#e0def4
+love	#eb6f92
+gold	#f6c177	
+rose	#ea9a97
+pine	#3e8fb0
+foam	#9ccfd8	
+iris	#c4a7e7
+highlight	#312f44
+highlightInactive	#2a283d
+highlightOverlay	#3f3c53
+*/ 
