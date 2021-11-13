@@ -41,10 +41,6 @@
     justify-content: center;
 }
 
-.showfavorites {
-    align-self: center;
-}
-
 .page1main {
     display: flex;
     flex-direction: row;
@@ -85,18 +81,229 @@
     font-size: 2rem;
 }
 
+.bodyrightside2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #f2e9de;
+    justify-content: center;
+    width: 75%;
+    height: 100%;
+}
+
+.page2main {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+.main2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.emptyspace2 {
+    height: 100%;
+    width: 120px;
+}
+
+.contactname,
+.contactphone,
+.contactaddress,
+.contactemail {
+    width: 200px;
+    height: 55px;
+}
+
+.contactnamepar,
+.contactphonepar,
+.contactaddresspar,
+.contactemailpar {
+    width: 200px;
+    height: 25px;
+    border-style: groove;
+    border-width: thin;
+    background-color: #fffaf3;
+    align-self: center;
+}
+
+.saveorcancel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+} 
+
+.savebutton {
+    width: 115px;
+    height: 35px;
+    background-color: #31748f;
+    text-align: center;
+    color: #fffaf3;
+    align-content: center;
+}
+
+.cancelbutton {
+    width: 65px;
+    height: 35px;
+    background-color: #eb6f92;
+    text-align: center;
+    color: #fffaf3;
+    align-content: center;
+}
+
+.emptyspacephoto {
+    width: 100%;
+    height: 65px;
+}
+
+.bodyrightside3 {
+    display: flex;
+    flex-direction: row;
+    background-color: #f2e9de;
+    width: 75%;
+    height: 100%;
+    justify-content: flex-start;
+}
+
+.emptyspace3 {
+    height: 100%;    
+    width: 70px;
+}
+
+.page3main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+.main3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactinfo {
+    display: flex;
+    flex-direction: row;
+    height: 180px;
+    width: 150%;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.coninfoandmain3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.contactinfoname {
+    font-size: 1.7rem;
+    width: 190px;
+}
+
+.contactinfoemail,
+.contactinfocell {
+    width: 200px;
+    height: 35px;
+}
+
+.cotanctinfoaddress {
+    width: 200px;
+    height: 90px;
+}
+
+.editorcancel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 200px;
+    height: 70px;
+}
+
+.editbutton {
+    width: 70px;
+    height: 40px;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: #31748f;
+    color: white;
+}
+
+.closebutton {
+    width: 90px;
+    height: 40px;
+    font-size: 1.2rem;
+    text-align: center;
+    color: white;
+    background-color: #3f3c53;
+}
 
 
+p {
+    font-family: 'Roboto', sans-serif;
+}
 
 
+div {
+    font-family: 'Roboto', sans-serif;
+}
 
 
+@media screen and (max-width: 550px) {
+    .bodyflex {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+    }
 
+    .bodyrightside {
+        display: flex;
+        flex-direction: column;
+    }
 
+    .page1main {
+        display: flex;
+        flex-direction: column;
+    }
 
+    .emptyspace2 {
+        height: 0px;
+    }
 
+    .page2main {
+        display: flex;
+        flex-direction: column;
+    }
 
+    .saveorcancel {
+        display: flex;
+        flex-direction: column;
+        height: 85px;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
 
+    .bodyrightside3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .emptyspace3 {
+        height: 0px;
+    }
+
+    .editorcancel {
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+        justify-content: space-between;
+    }
+}
 
 
 /* 
@@ -116,4 +323,6 @@ iris	#c4a7e7
 highlight	#312f44
 highlightInactive	#2a283d
 highlightOverlay	#3f3c53
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
 */ 
